@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Node Mail Sender</title>
+    <link href="css/style.css" rel="stylesheet"  type="text/css">
+    <link href="modules/quill/dist/quill.snow.css" rel="stylesheet">
+    <script data-main="js/custom/send.js" src="js/require.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <form id="send">
+        <h2>Send Mail</h2>
+        <div>
+          <input type="text" name="to" id="to" value="" placeholder="Recipient" tabindex="1" class="form-field-medium">
+        </div>
+
+        <div>
+          <input type="text" name="about" id="about" value="" placeholder="About" tabindex="2" class="form-field-medium">
+        </div>
+
+        <div>
+          <textarea cols="40" rows="8" name="mail-content" id="mail-content" tabindex="3" class="form-field-medium"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>

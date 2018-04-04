@@ -1,0 +1,20 @@
+{
+  "name": "queryberry",
+  "version": "1.0.0",
+  "description": "A test project for me to get into node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mboetschi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "nodemailer": "^4.6.3",
+    "quill": "^1.3.6",
+    "util": "^0.10.3"
+  }
+}

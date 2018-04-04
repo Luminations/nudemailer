@@ -1,0 +1,12 @@
+body{
+  text-align: center;
+}
+
+#content{
+  width: 70vw;
+  display: inline-block;
+}
+
+.form-field-medium{
+  width:  400px;
+}
