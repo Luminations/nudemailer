@@ -1,8 +1,3 @@
-require.config({
-  paths: {
-    path: ''
-  }
-});
 require(['../jquery.min', 'ajax', 'serialize', 'redirect'],
 function(){
   $('form').on('submit', function(event){
